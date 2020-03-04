@@ -1,15 +1,14 @@
 //
-//  UILabel+HKSCopy.h
-//  AutoPartsManagement
+//  UILabel+Copy.h
 //
-//  Created by rmh on 2018/12/17.
+//  Created by calvien on 2018/12/17.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UILabel (HKSCopy)
+@interface UILabel (Copy)
 
 @property (nonatomic,assign) BOOL isCopyable;
 

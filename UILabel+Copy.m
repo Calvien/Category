@@ -1,14 +1,13 @@
 //
-//  UILabel+HKSCopy.m
-//  AutoPartsManagement
+//  UILabel+Copy.m
 //
-//  Created by rmh on 2018/12/17.
+//  Created by calvien on 2018/12/17.
 //
 
-#import "UILabel+HKSCopy.h"
+#import "UILabel+Copy.h"
 #import <objc/runtime.h>
 
-@implementation UILabel (HKSCopy)
+@implementation UILabel (Copy)
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender {
     return (action == @selector(copyText:));
 }
